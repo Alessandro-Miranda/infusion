@@ -48,3 +48,58 @@ html
 {
     font-size: 2.25em;
 }
+.banner
+{
+    height: 28em;
+    background-image: url(../img/01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: .675em;
+    position: relative;
+}
+.banner__titulo
+{
+    font-size: 1.875em;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Sintony';
+    text-align: center;
+    color: white;
+    letter-spacing: 1.5px;
+    line-height: 1.5;
+    margin: 0 .875em;
+    padding: 1em;
+    background: #63c6ae;
+}
+.banner__descricao
+{
+    font-size: 1.15em;
+    text-align: center;
+    color: white;
+    background: #242a2c;
+    margin: 1.375em 2.875em;
+    padding: 1em;
+}
+.banner__link
+{
+    font-size: 1.175em;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Sintony";
+    font-weight: 600;
+    color: white;
+    background: rgba(0, 0, 0, .3);
+    display: block;
+    border-radius: 3px;
+    box-shadow: 0 0 2px white;
+    width: 8em;
+    padding: 1em;
+    margin: 1.375em auto 0 auto;
+}
+.banner__imagem__decoracao
+{
+    display: block;
+    margin: 4.4em auto 0 auto;
+}
