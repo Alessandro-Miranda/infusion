@@ -113,6 +113,7 @@ html
 {
     box-shadow: 0 0 3px rgba(0, 0, 0, .3);
     font-family: 'Sintony';
+    margin-bottom: 0;
 }
 .cards__itens
 {
@@ -171,4 +172,49 @@ html
     line-height: 1.5;
     display: block;
     padding: 0 1.7em;
+}
+.conteudo
+{
+    border-top: 1px solid rgba(0, 0, 0, .1);
+    background: #f8f9f9;
+    padding-top: 3em;
+    font-family: 'Sintony';
+}
+.conteudo__artigo:last-child
+{
+    padding-bottom: 6em;
+}
+.conteudo__artigo__titulo
+{
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: #737c85;
+    margin-bottom: 1.2em;
+}
+.conteudo__artigo__descricao
+{
+    font-size: .875em;
+    line-height: 1.5;
+    color: #929da5;
+}
+.conteudo__artigo__button
+{
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    background: #63c6ae;
+    display: inline-block;
+    margin: 1em .875em 1.375em;
+    padding: 1.175em 2.375em;
+    border-radius: 3px;
+    transition: all .5s ease;
+}
+.conteudo__artigo__button--secundario
+{
+    background: #455357;
+}
+.conteudo__artigo__button:hover
+{
+    background: #929da5;
 }
