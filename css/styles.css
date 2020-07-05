@@ -12,7 +12,7 @@ html
 .container
 {
     max-width: 400px;
-    margin: 2.375em auto;
+    margin: 2.375em auto 0 auto;
 }
 
 .cabecalho
@@ -217,4 +217,27 @@ html
 .conteudo__artigo__button:hover
 {
     background: #929da5;
+}
+.ultimosArtigos .container
+{
+    max-width: 100vw;
+}
+.ultimosArtigos .ultimosArtigos__titulos
+{
+    padding: 1.25em;
+}
+.ultimosArtigos__titulos
+{
+    font-size: 1.375em;
+    font-family: 'Sintony';
+    text-transform: uppercase;
+    color: white;
+    background: #63c6ae;
+    margin: 0;
+}
+.ultimosArtigos__imagens img
+{
+    width: 100vw;
+    margin: 0;
+    display: block;
 }
