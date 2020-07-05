@@ -241,3 +241,42 @@ html
     margin: 0;
     display: block;
 }
+.laptop__slide
+{
+    height: 30em;
+    background: #242a2c;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+}
+.laptop__slide__show
+{
+    width: 22em;
+    height: 15em;
+}
+.laptop_slide__show__image
+{
+    width: 100%;
+    height: 100%;
+}
+.laptop__slide__show__setas
+{
+    color: white;
+    background: transparent;
+    outline: none;
+    border: none;
+}
+.laptop__slide__show__setas i[class^="fas fa-angle-left"]
+{
+    position: absolute;
+    top: 40%;
+    left: 5%;
+}
+.laptop__slide__show__setas i[class^='fas fa-angle-right']
+{
+    position: absolute;
+    top: 40%;
+    right: 5%;
+}
