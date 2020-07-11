@@ -40,7 +40,7 @@ html
     background: #63c6ae;
     text-align: center;
     width: 7em;
-    padding: 1.39em .875em;
+    padding: 1.411em .875em;
 }
 .cabecalho__menu__mobile
 {
@@ -261,7 +261,8 @@ html
     width: 100%;
     height: 100%;
 }
-.laptop__slide__show__setas
+.laptop__slide__show__setas,
+.slide__comentario__setas
 {
     color: white;
     background: transparent;
@@ -279,4 +280,77 @@ html
     position: absolute;
     top: 40%;
     right: 5%;
+}
+.slide__comentario
+{
+    font-size: 1.7em;
+    font-family: "Sintony";
+    font-style: italic;
+    font-weight: normal;
+    line-height: 1.5;
+    color: white;
+    background: #63c6ae;
+    padding: 2em;
+    border-bottom: .7em solid #48b9a1;
+    height: 16em;
+    position: relative;
+    top: 0;
+}
+.slide__comentario__autor
+{
+    font-size: 1.1rem;
+    text-align: center;
+    margin-top: 1.375em;
+}
+.slide__comentario__setas i[class^="fas fa-angle-left"]
+{
+    position: absolute;
+    top: 48%;
+    left: 2%;
+    font-size: 2.375em;
+}
+.slide__comentario__setas i[class^="fas fa-angle-right"]
+{
+    position: absolute;
+    top: 48%;
+    right: 2%;
+    font-size: 2.375em;
+}
+.rodape
+{
+    background: #242a2c;
+    color: #454e51;
+    font-family: "Sintony";
+    border-top: 1px solid transparent;
+    padding: 1.575em 0 15.625em;
+}
+.rodape__logo
+{
+    font-size: 1.175em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1.375em;
+}
+.rodape__conteudo
+{
+    font-size: .875em;
+    line-height: 1.5;
+    display: inline-block;
+    margin-bottom: 1.375em;
+}
+.rodape__links
+{
+    margin-left: 1.875em;
+}
+.rodape__links__itens
+{
+    font-size: 14px;
+    padding: .375em;
+}
+.rodape__links__itens a
+{
+    color: #454e51;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
 }
