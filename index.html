@@ -20,7 +20,32 @@
     <body>
         <header class="cabecalho">
             <a href="index.html" class="cabecalho__logo">infusion</a>
-            <button class="cabecalho__menu__mobile"><i class="fas fa-bars"></i></button>
+            <button class="cabecalho__menu__mobile" onclick="return menu();">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <nav class="cabecalho__menu__nav__hide" id="menu">
+                <ul class="cabecalho__menu__nav__lista__hide" id="menuLista">
+                    <li class="cabecalho__menu__nav__lista__itens">
+                        <a href="#">design folio</a>
+                    </li>
+                    <li class="cabecalho__menu__nav__lista__itens">
+                        <a href="#">services</a>
+                    </li>
+                    <li class="cabecalho__menu__nav__lista__itens">
+                        <a href="#">our business</a>
+                    </li>
+                    <li class="cabecalho__menu__nav__lista__itens">
+                        <a href="#">how we help</a>
+                    </li>
+                    <li class="cabecalho__menu__nav__lista__itens">
+                        <a href="#">take the tour</a>
+                    </li>
+                    <li class="cabecalho__menu__nav__lista__itens">
+                        <a href="#">contact</a>
+                    </li>
+                </ul>
+            </nav>
         </header>
 
         <section class="banner">

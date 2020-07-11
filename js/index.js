@@ -22,6 +22,18 @@ const dataComment = [
     }
 ];
 
+const menu = () => {
+    if(document.getElementById("menu").classList.contains("cabecalho__menu__nav__show"))
+    {
+        document.getElementById("menu").classList.remove("cabecalho__menu__nav__show");
+        document.getElementById("menuLista").classList.remove("cabecalho__menu__nav__lista__show");
+    }
+    else
+    {
+        document.getElementById("menu").classList.add("cabecalho__menu__nav__show");
+        document.getElementById("menuLista").classList.add("cabecalho__menu__nav__lista__show");
+    }
+}
 const avancar = (idImagem) => {
     for(var i=0; i<dataImage.length; i++)
     {
