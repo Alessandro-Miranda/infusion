@@ -11,7 +11,7 @@ html
 
 .container
 {
-    max-width: 400px;
+    max-width: 350px;
     margin: 2.375em auto 0 auto;
 }
 @media screen and (min-width: 700px)
@@ -31,7 +31,7 @@ html
 .cabecalho
 {
     width: 100vw;
-    height: 6em;
+    height: 5em;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -53,7 +53,8 @@ html
     background: #63c6ae;
     text-align: center;
     width: 7em;
-    padding: 1.411em .875em;
+    height: 3.25em;
+    padding: 1.2em .875em .735em .875em;
 }
 .cabecalho__menu__mobile
 {
@@ -70,7 +71,7 @@ html
 {
     overflow: hide;
     position: absolute;
-    top: 6em;
+    top: 5em;
     height: 0;
     background: #242c2c;
     transition: all 1s;
@@ -108,6 +109,53 @@ html
     text-decoration: none;
     font-weight: bold;
 }
+.cabecalho__menu__nav__lista__itens a:hover
+{
+    color: #63c6ae;
+    transition: color .6s;
+}
+@media screen and (min-width: 1024px)
+{
+    .cabecalho__menu__mobile
+    {
+        display: none;
+    }
+    .cabecalho
+    {
+        justify-content: flex-start;
+    }
+    .cabecalho__logo
+    {
+        width: 15em;
+        text-align: right;
+        margin-right: 1.875em;
+        padding-top: 1em;
+    }
+    .cabecalho__menu__nav__desktop
+    {
+        display: inline-block;
+        overflow: none;
+        height: 20px;
+        margin: 0;
+        position: relative;
+        top:0;
+        transition: none;
+        background: none;
+    }
+    .cabecalho__menu__nav__lista__desktop
+    {
+        text-align: center;
+        font-family: "Sintony";
+        overflow: none;
+        display: inline;
+    }
+    .cabecalho__menu__nav__lista__desktop .cabecalho__menu__nav__lista__itens
+    {
+        display: inline-block;
+        margin: 0 1.875em 0 0;
+        font-size: 1em;
+    }
+}
 .banner
 {
     height: 28em;
@@ -117,7 +165,7 @@ html
     background-attachment: fixed;
     padding-top: .675em;
     position: relative;
-    margin-top: 6em;
+    margin-top: 5em;
 }
 .banner__titulo
 {
@@ -163,8 +211,7 @@ html
 {
     position: absolute;
     bottom: 0;
-    left: 47%;
-    right: 47%;
+    left: 42%;
 }
 @media screen and (min-width: 700px)
 {
@@ -180,6 +227,11 @@ html
     {
         padding: 1em .375em;
         margin: 1.375em 5em 2em 5em;
+    }
+    .banner__imagem__decoracao
+    {    
+        left: 47%;
+        right: 47%;
     }
 }
 @media screen and (min-width: 960px)
